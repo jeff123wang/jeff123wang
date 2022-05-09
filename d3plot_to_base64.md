@@ -3,12 +3,13 @@
 // g++ main.cpp ../lib/liblsreader_cxx.a ../lib/libzipper.a  -I ../include/ -std=c++11 -lz
 
 // Author: Jeff Wang
+// Date:3/15/2022
 // this code made use of d3plot reader from LSTC to read thinning values from LsDyna d3plot file
 // LsReader: https://ftp.lstc.com/anonymous/outgoing/lsprepost/LS-Reader/
 // and then use minizip to compress it to zip.
 // the zip file later is turned into base64 string.
 // this base64 string will be embededed in a html file.
-// in the html file, JsZip.js and Three.js are use to decompress the zip file and visualize it in browser.
+// in the html file, JsZip.js and Three.js are used to decompress the zip file and visualize it in browser.
 
 #include <string>
 #include <iostream>
