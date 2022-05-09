@@ -4,6 +4,7 @@
 
 // Author: Jeff Wang
 // this code made use of d3plot reader from LSTC to read thinning values from LsDyna d3plot file
+// LsReader: https://ftp.lstc.com/anonymous/outgoing/lsprepost/LS-Reader/
 // and then use minizip to compress it to zip.
 // the zip file later is turned into base64 string.
 // this base64 string will be embededed in a html file.
